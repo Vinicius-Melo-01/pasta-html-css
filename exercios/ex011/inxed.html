@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h2>Imagem dinãmica</h2>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagemflexivel">
+    </picture>
+            <h2>Reproduzindo audio</h2>
+            <p>Vamos aprender a reproduzir audio</p>
+            <audio preload="metadata" controls autoplay> 
+                <source src="media/Land of a Loss - Dan _Lebo_ Lebowitz, Tone Seeker.mp3" type="audio/mpeg">
+                <source src="media/Land of a Loss - Dan _Lebo_ Lebowitz, Tone Seeker.ogg" type="audio/ogg">
+                <source src="media/Land of a Loss - Dan _Lebo_ Lebowitz, Tone Seeker.mp3" type="audio/wav">
+                <p>Infezmente seu navaador nao consegue reproduzir audio. <a href="media/Land of a Loss - Dan _Lebo_ Lebowitz, Tone Seeker.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+            </audio>
+</body>
+</html>
