@@ -4,6 +4,11 @@
     margin: 0px;
     padding: 0px;
 }
+HTML, body{
+    min-height: 100vh;
+}
+    
+
 header{
     font-family: 'Passion One';
     text-align: center;
@@ -25,8 +30,8 @@ header  a:hover{
     text-decoration:underline ;
 }
 p{
+    padding: 30px 0px 30px 30px;
     font-family: "Sriracha";
-    padding: 20px 0px 40px 10px;
     border: 1px solid black;
     font-size: 1.5em;
     font-weight: 500;
@@ -35,23 +40,26 @@ p{
     background-color: rgba(0, 0, 0, 0.137);
     width: 333px;
     color:  antiquewhite;
+    padding: 0px;
 }
-
+p.ft1{
+    margin-left: 30px;
+}
 
 div.fot1{
-    background-attachment: scroll;
-    background: url('imagens/background001.jpg') center top  no-repeat fixed ;
-    padding: 50px;
+    
+    background: url('imagens/background001.jpg') center top  no-repeat   fixed;
+    padding: 40px;
 }
 .fot2{
-    background-attachment: scroll;
-    background: url('imagens/background002.jpg') center top  no-repeat fixed ;
-    padding: 50px;
+
+    background: url('imagens/background002.jpg') center top  no-repeat  fixed;
+    padding: 40px;
+    
 }
 footer > p{
     text-align: center;
     background-color: black;
     color: azure;
-    padding-top: 5px;
-    padding-bottom: 0px;
+    
 }
